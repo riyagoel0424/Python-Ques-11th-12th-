@@ -1,0 +1,15 @@
+##### AGR TEXT FILE KA EACH CHARACTER PRINT KRANA HAI 
+
+def each_char():
+    file = open('abc.txt' , 'r')
+    data = file.read()
+    for i in data:
+        print(i)
+        
+each_char()
+
+
+
+#######   CSV FILE MEIN YE KRNE PR USKI LINES (ROWS) PRINT HOKE AATI HAI ....DIRECT PRINT DATA LIKHNE PR ERROR AATA HAI
+#####  BUT TEXT FILE MEIN PRINT DATA LIKHNE PR LINES MTLB FILE KI ROWS PRINT HOTI HAI PR AISE FOR I IN DATA PRINT KRANE PR USKE 
+#####  CHARACTERS PRINT HOTE HAI......

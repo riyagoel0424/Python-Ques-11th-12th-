@@ -1,0 +1,10 @@
+##### ISS LIST MEIN 5 CHARACTERS SE BDE VALE ELEMENTS PRINT KRANE THE
+
+PLACES = ['DELHI' , 'LONDON' , 'PARIS' , 'NEW YORK' , 'DUBAI']
+
+def COUNTNOW(PLACES):
+    for i in PLACES:
+        if len(i)>5:
+            print(i)
+    
+COUNTNOW(PLACES)
